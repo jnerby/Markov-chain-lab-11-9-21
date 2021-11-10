@@ -59,26 +59,7 @@ def make_chains(text_string):
             else:
                 chains[tup] = [words[ind + 2]]
         ind += 1
-
-    # to populate values in bigram list
-    # for word in words:
-    #     # get index of current word
-    #     # index returns first instance of a word
-    #     ind = 0
-
-    #     # check not last word
-    #     if ind < len(words) - 2:
-    #         # generate tuple to search from dict keys
-    #         search = (words[ind], words[ind + 1])
-    #         # generate word to append
-    #             # !next word is populating list the correct number of times but not changing (would you has 6 coulds, not 4 coulds 2 likes)
-    #         next_word = words[ind + 2]
-    #         # append next word search tuple's value list
-    #         chains[search].append(next_word)
-            
-    #         ind += 1
         
-
     return chains
 
 
